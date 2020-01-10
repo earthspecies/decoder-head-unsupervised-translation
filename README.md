@@ -17,9 +17,9 @@ Imagine you have trained a language model (LM) to perform some task, say predict
 
 Can you create a setup in which the mapping from words to embeddings will be learnable? Something that the model could learn utilizing the information encoded in the LM? Surprisingly, the answer is yes. This repository is based on original work by Aza Raskin exploring this idea.
 
-![Decoder Ring](https:/files.nuclino.com/files/d6fa05cd-3e8f-4bbe-882c-5a7560d3a06b/c69e3627-d16f-41ce-98e8-5341081201b5.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkNmZhMDVjZC0zZThmLTRiYmUtODgyYy01YTc1NjBkM2EwNmIiLCJwdXJwb3NlIjoiZ2V0LWZpbGUiLCJleHAiOjE1NzUwNzg5MDcsImlhdCI6MTU3NTA3NTMwN30.lEtc8pcKJ5EYIHNXNBt3j-iYjknIrLf_l1pHOf0lZX4&preview=l)
+![Decoder Head](https:/files.nuclino.com/files/d6fa05cd-3e8f-4bbe-882c-5a7560d3a06b/c69e3627-d16f-41ce-98e8-5341081201b5.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkNmZhMDVjZC0zZThmLTRiYmUtODgyYy01YTc1NjBkM2EwNmIiLCJwdXJwb3NlIjoiZ2V0LWZpbGUiLCJleHAiOjE1NzUwNzg5MDcsImlhdCI6MTU3NTA3NTMwN30.lEtc8pcKJ5EYIHNXNBt3j-iYjknIrLf_l1pHOf0lZX4&preview=l)
 
-Please read this for a more full description of a [potential Decoder Ring architecture](https://share.nuclino.com/p/Method-lXZu4iBCQMv1op2Bv8wM4n).
+Please read this for a more full description of a [potential Decoder Head architecture](https://share.nuclino.com/p/Method-lXZu4iBCQMv1op2Bv8wM4n).
 
 How well will the model be able to learn this mapping? How will it handle synonyms? Is there a way to present this task to the model to make the learning more efficient? Iterating on the original idea and answering these questions is what the experiments in this repository will center on.
 
