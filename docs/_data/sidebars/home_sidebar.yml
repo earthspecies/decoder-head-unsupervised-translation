@@ -11,7 +11,7 @@ entries:
       url: /
     - output: web,pdf
       title: Title
-      url: /core
+      url: /language_play_v9_softmax
     output: web
     title: language_induction
   output: web
