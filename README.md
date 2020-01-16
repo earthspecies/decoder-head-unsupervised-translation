@@ -8,7 +8,7 @@
 
 -->
 
-# Language Induction
+# Decoder head
 
 > Exploration of unsupervised translation using fastai and pytorch
 
@@ -23,5 +23,8 @@ Please read this for a more full description of a [potential Decoder Head archit
 
 How well will the model be able to learn this mapping? How will it handle synonyms? Is there a way to present this task to the model to make the learning more efficient? Iterating on the original idea and answering these questions is what the experiments in this repository will center on.
 
-The question in itself is interesting. This work can be relevant to unsupervised translation. There are also interesting and useful questions that we will be answering along the way that can benefit other areas of reasearch. For instance, what would be a [good way](https://arxiv.org/abs/1901.08624) to address the Linear Assignment Problem in a learnable way? Code on this and related problems will gradually be making its way into this repository as we continue to work on the main premise.
+## Special thanks
 
+Special thanks to the authors of the [MultiFiT: Efficient Multi-lingual Language Model Fine-tuning](https://arxiv.org/abs/1909.04761) that is Julian Eisenschlos, Sebastian Ruder, Piotr Czapla, Marcin Kardas, Sylvain Gugger and Jeremy Howard! We trained our models on the wikipedia dumps that you were so kind to provide!
+
+Another round of thanks goes out to authors of [MUSE framework @ facebookresearch](https://github.com/facebookresearch/MUSE), that is Guillaume Lample and Alexis Conneau. We used the ground-truth bilingual dictionaries to evaluate the performance of our models.
