@@ -11,8 +11,8 @@ entries:
       url: /
     - output: web,pdf
       title: Title
-      url: /language_play_v9_softmax
+      url: /language_play_v9_mixer_softmax
     output: web
-    title: language_induction
+    title: decoder_head
   output: web
   title: Sidebar

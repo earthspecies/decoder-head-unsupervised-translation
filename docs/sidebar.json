@@ -1,6 +1,6 @@
 {
-  "language_induction": {
+  "decoder_head": {
     "Overview": "/",
-    "Title": "/language_play_v9_softmax"
+    "Title": "/language_play_v9_mixer_softmax"
   }
 }
