@@ -12,9 +12,17 @@ index = {"split_file_into_chunks": "01_train_LM_en.ipynb",
          "optimize_model": "01_train_LM_en.ipynb",
          "aza_loss": "01_train_LM_en.ipynb",
          "hitInTopN": "01_train_LM_en.ipynb",
-         "print_synonyms": "01_train_LM_en.ipynb"}
+         "print_synonyms": "01_train_LM_en.ipynb",
+         "get_en_es_dict": "03_translate_en_to_es.ipynb",
+         "top_n_translation_acc": "03_translate_en_to_es.ipynb",
+         "PermuteEmbeddingNorm": "04_LM_with_normalized_embeddings.ipynb",
+         "p_normAWD_LSTM": "04_LM_with_normalized_embeddings.ipynb",
+         "embs_to_txt": "05_aligning_the_embeddings_using_vecmap.ipynb",
+         "txt_to_embs": "05_aligning_the_embeddings_using_vecmap.ipynb"}
 
-modules = ["core.py"]
+modules = ["core.py",
+           "decoder_head/data.py",
+           "decoder_head/core.py"]
 
 doc_url = "https://earthspecies.github.io/decoder_head/"
 
