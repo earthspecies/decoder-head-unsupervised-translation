@@ -23,8 +23,7 @@ index = {"split_file_into_chunks": "01_train_LM_en.ipynb",
          "txt_to_embs": "05_aligning_the_embeddings_using_vecmap.ipynb"}
 
 modules = ["core.py",
-           "data.py",
-           "decoder_head/core.py"]
+           "data.py"]
 
 doc_url = "https://earthspecies.github.io/decoder_head/"
 
